@@ -1,0 +1,347 @@
+body {
+    font-family: 'poopins', sans-serif;
+    background-color: #efefef;
+}
+
+
+/* navigation starts */
+.my-header {
+    padding: 0px;
+}
+
+#my-navigation {
+    background-color: transparent;
+    border: none;
+    width: 100%;
+    position: absolute;
+    z-index: 10;
+}
+
+.navbar-toggle {
+    display: block;
+    border: none;
+}
+
+#my-navigation .navbar-toggle:hover {
+    background: none;
+    cursor: pointer;
+}
+
+#my-navigation .navbar-header {
+    float: none;
+}
+
+#my-navigation .navbar-right {
+    float: left !important;
+}
+
+#my-navigation .icon-bar {
+    background-color: #fff;
+}
+
+#my-navigation .icon-bar-left {
+    float: left;
+}
+
+#my-navigation .icon-right {
+    position: relative;
+    top: -4px;
+    margin-left: 5px;
+    float: right;
+    color: #fff;
+}
+
+.navbar-brand,
+#my-navigation a {
+    color: #fff;
+}
+
+/* navigation ends */
+
+
+/* carousel starts here*/
+.carousel .item {
+    background-image: url("../images/slide01.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+.carousel .item-2 {
+    background-image: url("../images/slide02.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+.carousel .item-3 {
+    background-image: url("../images/slide03.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+.carousel .item-4 {
+    background-image: url("../images/slide04.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+.carousel .item-5 {
+    background-image: url("../images/slide05.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+/* carousel ends here */
+
+
+/* banner starts here*/
+.banner-content {
+    color: white;
+    z-index: 10;
+    text-align: center;
+    position: absolute;
+    top: 40%;
+}
+
+.banner-content hr {
+    width: 40%;
+}
+
+.banner-content p {
+    font-weight: 200;
+    letter-spacing: 4px;
+}
+
+.banner-content h1 {
+    font-size: 120px;
+    font-weight: 200;
+    margin-top: 5px;
+}
+
+/* banner ends */
+
+/* two blogs sec */
+.two-blog-sec {
+    padding: 70px 0px;
+}
+
+.two-blog-sec img {
+    width: 100%;
+}
+
+.left,
+.right {
+    background-color: #fff;
+    text-align: center;
+    width: 96%;
+}
+
+.left h6,
+.right h6 {
+    letter-spacing: 3px;
+    color: grey;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.left hr,
+.right hr {
+    width: 40%;
+    margin: 0 auto;
+    height: 10px;
+}
+
+.left h3,
+.right h3 {
+    font-size: 25px;
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+.left p,
+.right p {
+    text-align: left;
+    font-weight: 100;
+    padding: 25px 30px;
+    font-size: 15px;
+    color: grey;
+}
+
+.left button,
+.right button {
+    padding: 10px;
+    margin: 15px 0px;
+    width: 150px;
+    height: 40px;
+    background: none;
+    font-family: 'poppins', sans-serif;
+}
+
+/* two blog section ends  */
+
+
+/* full qaute */
+.full-qaute {
+    background-image: url("../images/slide04.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    padding: 50px 0px 20px 0px;
+    text-align: center;
+}
+
+.full-qaute hr {
+    width: 40%;
+    color: grey;
+}
+
+.full-qaute p {
+    font-size: 10px;
+    letter-spacing: 4px;
+    color: whitesmoke;
+    font-weight: 100;
+}
+
+.full-qaute h3 {
+    font-weight: 100;
+    color: #fff;
+}
+
+/* full qautes ends */
+
+/* galary starts here */
+.galary {
+    padding: 50px 0px;
+}
+
+.galary-logo {
+    width: 100%;
+    text-align: center;
+}
+
+.galary-logo p {
+    font-size: 10px;
+    letter-spacing: 4px;
+    font-weight: 100;
+}
+
+.galary-logo h3 {
+    margin: 30px 0px;
+    font-weight: 100;
+}
+
+.images img {
+    width: 95%;
+    float: left;
+    margin-bottom: 5%;
+    border: 10px solid whitesmoke;
+}
+
+.left-img {
+    margin-left: 2%;
+}
+
+/* galary ends here */
+
+
+/* footer starts   */
+.footer {
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.footer .icons span {
+    color: #efefef;
+    font-size: 18px;
+    padding: 5px;
+}
+
+.footer p {
+    color: #efefef;
+}
+
+/* footer ends */
+
+
+/* media queries */
+@media (max-width: 768px) {
+    .my-collapes {
+        padding-left: 15px;
+        padding-top: 5px;
+        border-top: 2px solid white;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+
+    /* banner */
+    .banner-content {
+        padding: 40px;
+    }
+
+    .banner-content p {
+        font-size: 10px;
+        letter-spacing: 2px;
+    }
+
+    .banner-content h1 {
+        font-size: 70px;
+    }
+
+    /* two blogs sec */
+    .two-blog-sec {
+        padding: 40px 10px;
+    }
+
+    .two-blog-sec .left,
+    .right {
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+
+    .full-qaute {
+        padding: 50px;
+    }
+
+    .full-qaute p {
+        font-size: 8px;
+        letter-spacing: 2px;
+    }
+
+    .full-qaute h3 {
+        font-size: 23px;
+    }
+
+    /* galary */
+    .galary {
+        padding: 40px;
+    }
+
+    .galary .images img {
+        margin: 0 auto;
+        margin-left: 2%;
+        margin-top: 30px;
+    }
+
+    .galary-logo p {
+        font-size: 8px;
+    }
+
+    .galary-logo h3 {
+        font-size: 23px;
+    }
+
+}
